@@ -51,7 +51,7 @@ macro_rules! uri {
 /// the components when `#` is used to specify an alternate.
 ///
 ///```
-/// use cpe::uri::Uri;
+/// use common_platform_enumerator::uri::Uri;
 /// let uri = Uri::builder()
 ///           .part("a")
 ///           .vendor("foo%21")
@@ -65,7 +65,7 @@ macro_rules! uri {
 ///
 /// Additionally, the `0` for zero-padding integers can be used to omit default "*" fields.
 ///```
-/// use cpe::uri::Uri;
+/// use common_platform_enumerator::uri::Uri;
 /// let uri = Uri::builder()
 ///           .part("a")
 ///           .vendor("foo%21")
@@ -150,7 +150,7 @@ impl<'a> Uri<'a> {
     /// Create a `CpeBuilder` struct to construct a new Wfn.
     ///
     /// ```
-    /// use cpe::uri::Uri;
+    /// use common_platform_enumerator::uri::Uri;
     ///
     /// let cpe: Uri = Uri::builder()
     ///               .part("a")
