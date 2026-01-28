@@ -1,22 +1,25 @@
 [package]
-name = "cpe"
+name = "common_platform_enumerator"
 version = "0.1.4"
-authors = ["Ken Johnson <ken.johnso93@gmail.com>"]
-edition = "2018"
+authors = [
+  "Ken Johnson <ken.johnso93@gmail.com>",
+  "Thomas Haslbauer <cpe@winkelgas.se>",
+]
+edition = "2024"
 license = "MIT OR Apache-2.0"
 keywords = ["cpe"]
 description = "CPE 2.2 and 2.3 handling in Rust"
 repository = "https://github.com/KenDJohnson/cpe-rs"
 documentation = "https://docs.rs/cpe"
-rust-version = "1.65"
+rust-version = "1.93"
 
 [dependencies]
-thiserror = "1.0"
+thiserror = "2.0"
 language-tags = "0.3"
-percent-encoding = "2.1"
-derive_builder = "0.9"
-regex = "1.4"
-lazy_static = "1.4"
+percent-encoding = "2.3"
+derive_builder = "0.20"
+regex = "1.12"
+lazy_static = "1.5"
 
 [features]
 default = ["display"]
