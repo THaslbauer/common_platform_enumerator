@@ -1,5 +1,7 @@
 # CPE handling library in Rust
 
+This library is a fork of [https://github.com/KenDJohnson/cpe-rs](https://github.com/KenDJohnson/cpe-rs)
+
 ## Conformance
 
 - [ ] An implementation MUST make an explicit claim of conformance to this specification in any
@@ -32,13 +34,17 @@ issues for these commonly used characters.
 ## References
 
 ###### \[1\]
+
 [CPE Specification Overview](https://cpe.mitre.org/specification/)
 
 ###### \[2\]
+
 [CPE Naming Specification [CPE23-N]](https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7695.pdf)
 
 ###### \[3\]
+
 [CPE Name Matching](https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7696.pdf)
 
 ###### \[4\]
+
 [CPE Specification v2.2 [CPE-22]](https://cpe.mitre.org/files/cpe-specification_2.2.pdf)
