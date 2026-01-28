@@ -8,5 +8,6 @@ pub mod component;
 pub mod cpe;
 pub mod error;
 pub mod parse;
+pub mod string_binding;
 pub mod uri;
 pub mod wfn;
